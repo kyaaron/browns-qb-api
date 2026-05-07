@@ -28,4 +28,11 @@ The URL can handle spaces and any casing. For example, you can type `https://bro
 ```
 All quarterbacks will have an object that contains this information.
 
+`years` reflects the seasons in which each QB made at least one start for Cleveland (not necessarily their years on the roster).
+numSeasons is the count of distinct seasons with at least one start.
+
+Several QBs appeared in multiple non-consecutive stints (e.g., Joe Flacco in 2023 and 2025), so their years span reflects their first and last seasons with a start.
+
+The 2025 entries for Dillon Gabriel (#5) and Shedeur Sanders (#12) are included per the Browns' confirmed jersey numbers from their 2025 draft class announcement. The jersey number for Sanders has since changed to #2.
+
 If no quarterback is found, a 404 status code is returned along with the message "Quarterback not found".
