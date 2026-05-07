@@ -14,9 +14,9 @@ There is an index.html file that will eventually be used as a demo page for the 
 - Cloudflare Worker will not work for me because I am using Node/Express, which is does not work well with
 
 ## API URL and how to use it
-URL: https://browns-qb-api.onrender.com/api/{Quarterback Name}
+URL: `https://browns-qb-api.onrender.com/api/{Quarterback Name}`
 
-The URL can handle spaces and any casing. For example, you can type "https://browns-qb-api.onrender.com/api/Tim Couch" and it will return with the following information:
+The URL can handle spaces and any casing. For example, you can type `https://browns-qb-api.onrender.com/api/Tim Couch` and it will return with the following information:
 
 ```json
 "tim couch": {
